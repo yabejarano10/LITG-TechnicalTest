@@ -9,8 +9,11 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     public Button[] Animations;
     public GameObject player;
+    public Weapon[] Weapons;
     private Animator playerAnimator;
     private string currentAnimation;
+
+    private bool loadedWeapons = false;
     private void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
@@ -32,6 +35,26 @@ public class GameManager : MonoBehaviour
         {
             playerAnimator.Play(currentAnimation);
         }
+
+        Scene current = SceneManager.GetActiveScene();
+        if(current.name == "Weapons")
+        {
+            LoadWeapons();
+        }
+    }
+    void LoadWeapons()
+    {
+        for(int i = 0;i <Weapons.Length && !loadedWeapons; i++)
+        {
+            Weapon current = Weapons[i];
+            if(current != null)
+            {
+                GameObject pos = GameObject.Find(i.ToString());
+                GameObject model = Instantiate(current.WeaponModel, pos.transform.position, Quaternion.identity);
+                model.GetComponent<WeaponBehaviour>().ShowName(current.weaponName);
+            }
+        }
+        loadedWeapons = true;
     }
 
     public void SwitchAnimation(string animName)

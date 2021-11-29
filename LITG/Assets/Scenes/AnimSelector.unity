@@ -827,6 +827,10 @@ MonoBehaviour:
   - {fileID: 376365418}
   - {fileID: 217155753}
   player: {fileID: 374187742}
+  Weapons:
+  - {fileID: 11400000, guid: b8bba1c3f13f372429ec0dda1cf9e3b3, type: 2}
+  - {fileID: 11400000, guid: d50ba493198cecb4ca6ed5c6401b8779, type: 2}
+  - {fileID: 11400000, guid: e7fd6367eb026a044a02b1b3888928e3, type: 2}
 --- !u!4 &698764306
 Transform:
   m_ObjectHideFlags: 0
