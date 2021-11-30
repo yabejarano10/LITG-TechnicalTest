@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponName: Parabolic
   damage: 10
-  range: 5
+  range: 40
   WeaponModel: {fileID: 1410407953086447255, guid: 7137ac2eeaac20445a25ebe8496a9cd3, type: 3}

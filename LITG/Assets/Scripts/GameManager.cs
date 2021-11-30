@@ -41,6 +41,15 @@ public class GameManager : MonoBehaviour
         {
             LoadWeapons();
         }
+
+        ExitGame();
+    }
+    void ExitGame()
+    {
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
     }
     void LoadWeapons()
     {
@@ -70,5 +79,10 @@ public class GameManager : MonoBehaviour
     public string GetCurrentAnimation()
     {
         return currentAnimation;
+    }
+
+    public Weapon GetWeaponInformation(int index)
+    {
+        return Weapons[index];
     }
 }

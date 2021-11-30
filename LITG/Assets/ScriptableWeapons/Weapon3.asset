@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d5c18632ab32da4096467cc0bca984e, type: 3}
   m_Name: Weapon3
   m_EditorClassIdentifier: 
-  weaponName: TBD
+  weaponName: Laser
   damage: 15
-  range: 15
+  range: 5
   WeaponModel: {fileID: 1410407953086447255, guid: fca0291fc8f23f54898cb04e6005173d, type: 3}

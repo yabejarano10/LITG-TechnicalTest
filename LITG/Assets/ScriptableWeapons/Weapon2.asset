@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponName: Magentic
   damage: 10
-  range: 20
+  range: 8
   WeaponModel: {fileID: 1410407953086447255, guid: 3e7ba8dc13a31654297b9eeb8645933b, type: 3}
