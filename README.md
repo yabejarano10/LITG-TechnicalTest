@@ -33,7 +33,7 @@ La segunda arma, representada por un cubo azul, corresponde a un campo magnetico
 La tercera arma, que está representada por un cubo morado, corresponde a un laser que está diseñada para rebotar en las superficies que lleven el nombre de "Mirror", la cantidad máxima de rebotes es configurada a través del scriptableObject usando la variable de rango y el color y grosor del laser puede ser configurado directamente en las propiedades del arma.
 
 <p align="center">
-  <img width="250" height="250" src="https://user-images.githubusercontent.com/20799388/144148501-6df8ab2a-5ee1-4946-ad54-2255ce65cf91.png">
+  <img width="500" height="300" src="https://user-images.githubusercontent.com/20799388/144148501-6df8ab2a-5ee1-4946-ad54-2255ce65cf91.png">
 </p>
 
 ## Oportunidades de mejora
