@@ -4,6 +4,10 @@
 
 # Descripción
 
+* El proyecto fue hecho utilizando la versión de **Unity 2020.3.15f2**
+* Al interior de la carpeta se encuentra una Build de la última versión del juego en caso de que se quiera ejecutar directamente el proyecto.
+* Al ejecutar el juego desde la carpeta Build, puede utilizarse la tecla **escape** para cerrarlo.
+
 ## Escena 1
 
 El proyecto consta de 2 escenas en donde, en la primera, se encontrará un pequeño menú que permite selecciones y visualizar las animaciones del personaje, una vez se selecciones la animación deseada se puede oprimir el botón de continuar para avanzar a la siguiente escena.
